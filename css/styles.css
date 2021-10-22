@@ -67,10 +67,9 @@ img {
 .cursor:focus,
 .cursor:active {
   color: var(--accent-text-color);
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
-
   cursor: pointer;
+
+  transition: 250ms var(--timing-function);
 }
 
 /* Body */
@@ -212,6 +211,8 @@ img {
 .auth-nav-link:active {
   color: var(--accent-text-color);
   fill: var(--accent-text-color);
+
+  transition: 250ms var(--timing-function);
 }
 
 /* продолжение Header */
@@ -512,11 +513,13 @@ img {
 .socials-link:hover,
 .socials-link:focus {
   background-color: var(--accent-text-color);
+  transition: 250ms var(--timing-function);
 }
 
 .socials-link:hover .socials-icon,
 .socials-link:focus .socials-icon {
   fill: var(--white-color);
+  transition: 250ms var(--timing-function);
 }
 
 .socials-icon {
@@ -570,11 +573,15 @@ img {
 .clients-link:focus {
   background-color: var(--white-color);
   border: 1px solid var(--accent-text-color);
+
+  transition: 250ms var(--timing-function);
 }
 
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon {
   fill: var(--accent-text-color);
+
+  transition: 250ms var(--timing-function);
 }
 
 .clients-icon {
